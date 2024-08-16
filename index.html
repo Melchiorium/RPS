@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
@@ -14,23 +15,28 @@
 <h2>
     Round 0/5
 </h2>
-<div>
-    <h3>You</h3>
-    <p>0</p>
-    <div class="playerButtonContainer">
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Cissors</button>
+<div class="playgroundUI">
+
+    <div class="humanUI">
+        <h3>You</h3>
+        <p class="score">0</p>
+        <div class="playerButtonContainer">
+            <button>Rock</button>
+            <button>Paper</button>
+            <button>Cissors</button>
+        </div>
     </div>
+    
+    <div class="computerUI">
+        <h3>The computer</h3>
+        <p class="score">0</p>
+        <div class ="computerChoiceDisplay">
+    ?
+        </div>
+    </div>
+
 </div>
 
-<div>
-    <h3>The computer</h3>
-    <p>0</p>
-    <div class ="computerChoiceDisplay">
-
-    </div>
-</div>
 
 </body>
 </html>
