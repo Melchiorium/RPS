@@ -1,13 +1,6 @@
 let humanScore, computerScore = 0;
 let matchCount=0;
 
-function test() {
-    console.log("test");
-}
-
-function displayComputerChoice() {
-    console.log(getComputerChoice());
-}
 
 function getComputerChoice() {
     let x = Math.random();
@@ -63,8 +56,6 @@ function compareChoice(humanChoice, computerChoice){
     }
     else
     {
-        console.log("here2");
-
         return humanChoice>computerChoice?1:2;
     } 
 }
